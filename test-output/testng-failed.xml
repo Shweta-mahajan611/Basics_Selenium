@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.basicselenium.popuphandling.FileDownloadByFirefox">
+      <class name="com.bridgelabz.basicselenium.test.ScreenshotTest">
         <methods>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="downloadFileTest"/>
+          <include name="takeScreenshotTest"/>
         </methods>
-      </class> <!-- com.bridgelabz.basicselenium.popuphandling.FileDownloadByFirefox -->
+      </class> <!-- com.bridgelabz.basicselenium.test.ScreenshotTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

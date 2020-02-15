@@ -17,7 +17,7 @@ public class CssSelector extends Base
 	@Test
 	public void testCssSelector() throws InterruptedException 
 	{
-		base = new Base();
+		//base = new Base();
 		driver.get("https://www.gmail.com");
 		// Css selector using id
 		WebElement email = driver.findElement(By.cssSelector("input[id='identifierId']"));
